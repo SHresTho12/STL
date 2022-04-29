@@ -20,6 +20,7 @@ vec.push_back(7);
 cout<<binary_search(vec.begin(),vec.end(),4);
 cout<<binary_search(vec.begin(),vec.end(),10);
 
-
+cout<<lower_bound(vec.begin(),vec.end(),5)-vec.begin()<<endl;
+cout<<upper_bound(vec.begin(),vec.end(),5)-vec.begin()<<endl;
 
 }
